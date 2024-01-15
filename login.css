@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 15px Montserrat, sans-serif;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.column {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.login,
+.signup {
+    background-color: #bbb;
+}
+
+.container {
+    padding: 16px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+}
+
+input[type=checkbox] {
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.cancelbtn,
+.signupbtn {
+    width: 100%;
+    padding: 10px 18px;
+    margin-bottom: 10px;
+}
+
+.cancelbtn {
+    background-color: #f44336;
+}
+
+.signupbtn {
+    background-color: #04AA6D;
+}
+
+.password-container {
+    position: relative;
+}
+
+.show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        
+    }
+    
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}

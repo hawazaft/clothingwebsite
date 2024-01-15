@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- title icon -->
+	<link rel="shortcut icon" href="./logo.jpg">
+	<title>Login & signup</title>
+	
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="column login">
+            <form onsubmit="return validateLoginForm()" action="#">
+                <div class="container">
+                    <h1>Log In</h1>
+                    <br><br>
+                    <label for="uname">Username</label>
+                    <input type="text" placeholder="Enter Username" name="uname" id="loginUsername" required>
+
+                    <label for="psw">Password</label>
+                    <div class="password-container">
+                        <input type="password" placeholder="Enter Password" id="loginPassword" name="psw" required>
+                        <span class="show-password" onclick="togglePasswordVisibility('loginPassword')">
+                            <i class="fas fa-eye"></i>
+                        </span>
+                    </div>
+
+                    <button type="submit" class="loginbtn">Login</button>
+                    <button type="button" class="cancelbtn" onclick="cancelAction()">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="column signup">
+            <form onsubmit="return validateSignupForm()" action="#">
+                <div class="container">
+                    <h1>Sign Up</h1>
+                    <p>Fill in this form to create an account.</p>
+                    <hr>
+
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Enter Email" name="email" id="signupEmail" required>
+
+                    <label for="name">Username</label>
+                    <input type="text" placeholder="Enter Name" name="name" id="signupUsername" required>
+
+                    <label for="psw">Password</label>
+                    <div class="password-container">
+                        <input type="password" placeholder="Enter Password" id="signupPassword" name="psw" required>
+                        <span class="show-password" onclick="togglePasswordVisibility('signupPassword')">
+                            <i class="fas fa-eye"></i>
+                        </span>
+                    </div>
+
+                    <div class="clearfix">
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                        <button type="button" class="cancelbtn" onclick="cancelAction()">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function togglePasswordVisibility(passwordId) {
+            var x = document.getElementById(passwordId);
+            var icon = x.nextElementSibling.querySelector('.fas');
+
+            if (x.type === "password") {
+                x.type = "text";
+                icon.classList.remove("fa-eye");
+                icon.classList.add("fa-eye-slash");
+            } else {
+                x.type = "password";
+                icon.classList.remove("fa-eye-slash");
+                icon.classList.add("fa-eye");
+            }
+        }
+
+        function validateLoginForm() {
+            var username = document.getElementById("loginUsername").value;
+            var password = document.getElementById("loginPassword").value;
+
+            if (username === "" || password === "") {
+                alert("Please enter both username and password.");
+                return false; // Prevent form submission
+            } else {
+                alert("Login is successful!");
+                window.location.href = "home1.html";
+                return false; 
+            }
+        }
+
+        function validateSignupForm() {
+            var email = document.getElementById("signupEmail").value;
+            var username = document.getElementById("signupUsername").value;
+            var password = document.getElementById("signupPassword").value;
+
+            if (email === "" || username === "" || password === "") {
+                alert("Please fill in all fields.");
+                return false; // Prevent form submission
+            } else {
+                alert("Sign up is successful!");
+                window.location.href = "home1.html";
+                return false; 
+            }
+        }
+
+        function cancelAction() {
+            window.location.href = "home1.html";
+        }
+    </script>
+</body>
+</html>

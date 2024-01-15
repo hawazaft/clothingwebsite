@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- title icon -->
+	<link rel="shortcut icon" href="./logo.jpg">
+	<title>Clothing Details</title>
+	
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+  <!-- Include Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+	<link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./productDetails.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  
+  <!-- Header -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+   
+    <div class="navbar-header">            
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>              
+			<img class="navbar-brand" style="display:inline" src="./logo.jpg" alt="Logo" width="70" height="70">
+		</div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="shop.html">SHOP</a></li>
+    		<li><a href="about.html">ABOUT</a></li>
+		  	<li><a href="summary.html"><i class="fa fa-shopping-bag"></i></a></li>
+  			<li><a href="login.html"><i class="fa fa-user"></i></a></li>
+			</ul>
+		</div>	
+	</nav>
+<div class="clothing-details">
+        <img src="" alt="Clothing Image" id="clothingImage">
+        <div class="details-container">
+            <div>
+                <h2 class="description" id="clothingDescription"></h2>
+                <p class="price" id="clothingPrice"></p>
+            </div>
+            <div>
+                <p class="size">Size: <span id="selectedSize"></span></p>
+                <div class="size-buttons">
+                    <div class="size-button" onclick="selectSize('XS')">XS</div>
+                    <div class="size-button" onclick="selectSize('S')">S</div>
+                    <div class="size-button" onclick="selectSize('M')">M</div>
+                    <div class="size-button" onclick="selectSize('L')">L</div>
+                    <div class="size-button" onclick="selectSize('XL')">XL</div>
+                    <div class="size-button" onclick="selectSize('XXL')">XXL</div>
+                </div>
+                <input type="number" class="quantity-input" placeholder="Qty" min="1">
+                <p class="collection-description">
+                   Explore our diverse collection of clothing, catering to women, men, 
+				   and kids alike. Discover stylish and comfortable apparel designed for 
+				   every occasion, blending fashion-forward trends with timeless classics.
+				   From trendy outfits for women to smart and casual wear for men and adorable 
+				   ensembles for kids, our curated selection ensures that everyone can effortlessly 
+				   express their unique style with confidence and comfort.
+
+                </p>
+            </div>
+            <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+			
+        </div>
+    </div>
+
+    <script>
+        // Fetch data from the clicked item on the previous page
+        var queryString = window.location.search;
+        var urlParams = new URLSearchParams(queryString);
+
+        // Fetch data from the clicked item on the previous page
+        var storedProduct = JSON.parse(sessionStorage.getItem("selectedProduct"));
+
+        var clothingImage = document.getElementById('clothingImage');
+        var clothingDescription = document.getElementById('clothingDescription');
+        var clothingPrice = document.getElementById('clothingPrice');
+
+        // Set details based on the stored product
+        clothingImage.src = storedProduct.image; // Set the correct property name
+        clothingDescription.innerText = storedProduct.description;
+        clothingPrice.innerText = 'Price: RM ' + storedProduct.price.toFixed(2);
+
+        var currentSize = null;
+
+        function selectSize(size) {
+            currentSize = size;
+            selectedSize.innerText = size;
+            // You can add more logic here if needed
+        }
+
+        function addToCart() {
+            // Implement your add to cart logic here
+            if (currentSize) {
+                alert('Item added to cart!');
+            } else {
+                alert('Please select a size before adding to cart.');
+            }
+        }
+		 
+    </script>
+<!--footer-->
+ <footer class="container-fluid navbar-fixed-bottom">
+    
+    <div class="container footer-copyright text-center">
+      <p>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Our purpose is to provide customers with the latest styles variety of clothes.
+        </p>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

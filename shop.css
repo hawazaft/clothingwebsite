@@ -1,0 +1,275 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background: radial-gradient(#fff, #c6c6c6);
+    overflow-x: hidden;
+}
+
+/* Category side styles */
+.categorySide {
+    position: sticky;
+    top: 0;
+    width: 275px;
+    height: 400vh;
+    background-color: #f4f4f4e3;
+    padding: 30px;
+    margin-bottom: 0; /* Added margin-bottom */
+}
+
+.categorySide h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1b1b1b;
+    line-height: 12px;
+    padding-bottom: 20px;
+}
+
+.categorySide select {
+    width: 100%;
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #1b1b1b;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+/* Product side styles */
+.productSide {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin-left: 20px;
+    padding: 20px ;
+}
+
+.productSide div {
+    cursor: pointer;
+}
+
+/* Common styles for product elements */
+.productGender,
+.productSize,
+.productCard {
+    font-weight: normal;
+    color: #555;
+    font-size: 16px;
+}
+
+.productDesc,
+.productPrice {
+    font-weight: 700;
+}
+
+/* Image container styles */
+.imgDiv {
+    height: 30%;
+    width: 100%;
+}
+
+.imgDiv img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Size div styles */
+.sizeDiv {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.sizeDiv h4 {
+    font-weight: 700;
+    color: #ababab;
+    line-height: 12px;
+    font-size: 16px;
+}
+
+/* Product card styles */
+.productCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #b6b6b6;
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 50px;
+    position: relative; /* Make the container position relative */
+}
+
+.productCard img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+/* Price styles */
+.productCard h3 {
+    font-size: 16px; /* Adjusted font size for price */
+}
+
+.productCard button {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    background: #ffffff;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background 0.5s;
+    margin-left: 30%;
+}
+
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 576px) {
+    .content {
+        display: flex;
+        flex-direction: row; /* Change to row to display columns side by side on small screens */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .col-sm-2 {
+        width: 40%; /* Adjusted width for the category side */
+    }
+
+    .col-sm-10 {
+        width: 60%; /* Adjusted width for the product side */
+    }
+
+    .categorySide {
+        padding: 20px;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .productSide {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%; /* Make sure the product side takes full width within its container */
+    }
+
+    .productCard {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .productCard img {
+        max-width: 100%;
+    }
+
+    .productGender,
+    .productSize,
+    .productDesc,
+    .productPrice {
+        font-size: 12px;
+    }
+
+    .productCard button {
+        font-size: 12px;
+    }
+}
+
+/* Media Query for Medium Screens */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .content {
+        display: flex;
+        flex-direction: row; /* Change to row to display columns side by side on small screens */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .col-sm-2 {
+        width: 30%; /* Adjusted width for the category side */
+    }
+
+    .col-sm-10 {
+        width: 70%; /* Adjusted width for the product side */
+    }
+
+    .categorySide {
+        padding: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .productSide {
+        grid-gap: 15px; /* Adjusted grid gap for medium screens */
+    }
+
+    .productCard {
+
+        margin-bottom: 20px;
+    }
+    
+    .productCard img {
+        max-width: 100%;
+    }
+
+    .productCard button {
+        padding: 10px 20px; /* Adjusted padding for medium screens */
+    }
+
+    .productGender,
+    .productSize,
+    .productDesc,
+    .productPrice {
+        font-size: 14px;
+    }
+
+    .productCard button {
+        font-size: 14px;
+    }
+}
+
+/* Media Query for Large Screens */
+@media screen and (min-width: 993px) {
+    .content {
+        display: flex;
+        flex-direction: row; /* Change to row to display columns side by side on small screens */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .col-sm-2 {
+        width: 20%; /* Adjusted width for the category side */
+    }
+
+    .col-sm-10 {
+        width: 80%; /* Adjusted width for the product side */
+    }
+    .categorySide {
+        padding: 20px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .productSide {
+        grid-gap: 20px; /* Adjusted grid gap for large screens */
+    }
+
+    .productCard {
+        margin-bottom: 20px;
+    }
+
+    .productCard img {
+        max-width: 100%; /* Adjusted image width for large screens */
+    }
+
+    .productGender,
+    .productSize,
+    .productDesc,
+    .productPrice {
+        font-size: 14px;
+    }
+
+    .productCard button {
+        font-size: 14px;
+    }
+
+}

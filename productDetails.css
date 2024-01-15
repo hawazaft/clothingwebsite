@@ -1,0 +1,117 @@
+/* Add any additional styling for clothing details page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .clothing-details {
+            display: flex;
+            max-width: 1200px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: auto;
+            margin: 20px; /* Add margin for better spacing */
+        }
+
+        .clothing-details img {
+            width: 40%; /* Adjusted width for the image */
+            height: auto;
+            border-top-left-radius: 8px; /* Add rounded corners for the image */
+            border-bottom-left-radius: 8px; /* Add rounded corners for the image */
+        }
+
+        .details-container {
+            padding: 20px; /* Reduced padding for a cleaner look */
+            width: 40%; /* Adjusted width for the details container */
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .details-container h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333; /* Darken the text color */
+        }
+
+        .details-container p {
+            color: #555; /* Adjust text color for better readability */
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .size-buttons {
+            display: flex;
+            gap: 5px;
+            margin-top: 20px; /* Adjusted margin for better spacing */
+        }
+
+        .size-button {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .selected {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .quantity-input {
+            width: 80%; /* Full width for better responsiveness */
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 20px; /* Adjusted margin for better spacing */
+        }
+
+        .add-to-cart {
+            background-color: light grey; /* Set background color of the button to white */
+            color: black; /* Set text color of the button to black */
+            border: 1px solid black; /* Set border color of the button to black */
+            padding: px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+
+        .collection-description {
+            margin-top: 20px; /* Adjusted margin for better spacing */
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Media query for responsiveness */
+        @media screen and (max-width: 768px) {
+            .clothing-details {
+                flex-direction: column;
+            }
+
+            .clothing-details img {
+                width: 100%; /* Full width for the image on small screens */
+                border-top-left-radius: 8px; /* Add rounded corners for the image on small screens */
+                border-bottom-left-radius: 0; /* Remove rounded corners for the image on small screens */
+            }
+
+            .details-container {
+                width: 100%; /* Full width for the details container on small screens */
+                padding: 20px;
+            }
+        }
