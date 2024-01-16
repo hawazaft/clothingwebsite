@@ -1,13 +1,13 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/woman/dress.jpg", 
+        image: "dress.jpg", 
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "Cream Plain Dress Colar Long Sleeve",
         price: 89.00
     },
     {
-        image: "./img/woman/jumpsuit.jpg",
+        image: "jumpsuit.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "Black Denim Jumpsuit",
