@@ -1,20 +1,20 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/woman/jeans.jpg",
+        image: "jeans.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "High Waist Palazzo Jeans",
         price: 70.99
     },
     {
-        image: "./img/woman/jeans1.jpg",
+        image: "jeans1.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "High Waist Bootcut Jeans",
         price: 67.00
     },
     {
-        image: "./img/woman/slack.jpg",
+        image: "slack.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "High Waist Straightcut Slack",
