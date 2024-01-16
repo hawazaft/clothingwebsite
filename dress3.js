@@ -1,20 +1,20 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/kids/set.jpg",
+        image: "set.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Pink Pyjama Set",
         price: 20.00
     },
     {
-        image: "./img/kids/set1.jpg",
+        image: "set1.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Orange Pyjama Set",
         price: 16.90
     },
     {
-        image: "./img/kids/set2.jpg",
+        image: "set2.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Grey Pyjama Set with Button",
