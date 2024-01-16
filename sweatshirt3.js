@@ -1,27 +1,27 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/kids/knitwear.jpg",
+        image: "knitwear1.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Knitwear with Rabbit Design",
         price: 34.50
     },
     {
-        image: "./img/kids/sweatshirt.jpg",
+        image: "sweatshirt3.jpg",
         gendar: "KIDS",
         size:"XS-XXL",
         description: "Minnie Mouse Sweatshirt",
         price: 23.99
     },
     {
-        image: "./img/kids/sweatshirt1.jpg",
+        image: "sweatshirt4.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Hello Kitty Sweatshirt",
         price: 27.90
     },
     {
-        image: "./img/kids/sweatshirt2.jpg",
+        image: "sweatshirt2.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Brown Sweatshirt",
