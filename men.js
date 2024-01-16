@@ -1,69 +1,69 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/man/hoodie.jpg",
+        image: "./hoodie.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Dark Blue Sweater with Hooded",
         price: 37.90
     },
     {
-        image: "./img/man/hoodie1.jpg",
+        image: "./hoodie1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Cream Hoodie California",
         price: 40.00
     },
     {
-        image: "./img/man/jeans.jpg",
+        image: "./jeans2.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Black Straightcut Denim",
         price: 65.00
     },
     {
-        image: "./img/man/jeans1.jpg",
+        image: "./jeans3.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Skinny Jeans",
         price: 60.00
     },
     {
-        image: "./img/man/pants.jpg",
+        image: "./pants.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Black Cargo Pants with ",
         price: 49.00
     },
     {
-        image: "./img/man/pants1.jpg",
+        image: "./pants1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Cargo Pants Elastic",
         price: 47.99
     },
     {
-        image: "./img/man/shirt.jpg",
+        image: "./shirt.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Grey T-Shirt",
         price: 18.90
     },
     {
-        image: "./img/man/shirt1.jpg",
+        image: "./shirt1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "T-Shirt",
         price: 23.99
     },
     {
-        image: "./img/man/tshirt.jpg",
+        image: "./tshirt2.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "White Shirt Long Sleeve",
         price: 42.00
     },
     {
-        image: "./img/man/tshirt1.jpg",
+        image: "./tshirt1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Shirt Rectangle Pattern",
