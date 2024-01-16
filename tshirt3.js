@@ -1,34 +1,34 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/kids/shirt.jpg",
+        image: "shirt5.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "T-Shirt with Cute Design",
         price: 37.00
     },
     {
-        image: "./img/kids/shirt1.jpg",
+        image: "shirt6.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "T-Shirt Long Sleeve",
         price: 10.00
     },
     {
-        image: "./img/kids/shirt2.jpg",
+        image: "shirt2.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "T-Shirt with Strip Pattern",
         price: 12.00
     },
     {
-        image: "./img/kids/shirt3.jpg",
+        image: "shirt3.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "T-Shirt with Small Hello Kitten Design",
         price: 19.00
     },
     {
-        image: "./img/kids/shirt4.jpg",
+        image: "shirt4.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Cream T-Shirt Short Sleeve",
