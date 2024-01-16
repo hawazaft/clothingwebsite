@@ -1,27 +1,27 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/man/jeans.jpg",
+        image: "jeans2.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Black Straightcut Denim",
         price: 65.00
     },
     {
-        image: "./img/man/jeans1.jpg",
+        image: "jeans3.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Skinny Jeans",
         price: 60.00
     },
     {
-        image: "./img/man/pants.jpg",
+        image: "pants.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Black Cargo Pants with ",
         price: 49.00
     },
     {
-        image: "./img/man/pants1.jpg",
+        image: "pants1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Cargo Pants Elastic",
