@@ -1,69 +1,69 @@
 const newArrivalObj_1 = [
     {
-        image: "./hoodie.jpg",
+        image: "hoodie.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Dark Blue Sweater with Hooded",
         price: 37.90
     },
     {
-        image: "./hoodie1.jpg",
+        image: "hoodie1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Cream Hoodie California",
         price: 40.00
     },
     {
-        image: "./jeans2.jpg",
+        image: "jeans2.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Black Straightcut Denim",
         price: 65.00
     },
     {
-        image: "./jeans3.jpg",
+        image: "jeans3.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Skinny Jeans",
         price: 60.00
     },
     {
-        image: "./pants.jpg",
+        image: "pants.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Black Cargo Pants with ",
         price: 49.00
     },
     {
-        image: "./pants1.jpg",
+        image: "pants1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Cargo Pants Elastic",
         price: 47.99
     },
     {
-        image: "./shirt.jpg",
+        image: "shirt.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Grey T-Shirt",
         price: 18.90
     },
     {
-        image: "./shirt1.jpg",
+        image: "shirt1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "T-Shirt",
         price: 23.99
     },
     {
-        image: "./tshirt2.jpg",
+        image: "tshirt2.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "White Shirt Long Sleeve",
         price: 42.00
     },
     {
-        image: "./tshirt1.jpg",
+        image: "tshirt1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Shirt Rectangle Pattern",
