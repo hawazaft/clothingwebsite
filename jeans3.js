@@ -1,20 +1,20 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/kids/jeans1.jpg",
+        image: "jeans4.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Jeans Straight Cut",
         price: 30.99
     },
     {
-        image: "./img/kids/jeans.jpg",
+        image: "jeans5.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Black Denim",
         price: 39.99
     },
     {
-        image: "./img/kids/pants.jpg",
+        image: "pants2.jpg",
         gendar: "KIDS",
         size: "SX-XL",
         description: "Cream Pants Loose",
