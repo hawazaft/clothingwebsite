@@ -1,6 +1,6 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/woman/tshirt.jpg", 
+        image: "tshirt.jpg", 
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "Cream Plain Dress Colar Long Sleeve",
