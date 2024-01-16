@@ -1,13 +1,13 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/man/hoodie.jpg",
+        image: "hoodie.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Dark Blue Sweater with Hooded",
         price: 37.90
     },
     {
-        image: "./img/man/hoodie1.jpg",
+        image: "hoodie1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Cream Hoodie California",
