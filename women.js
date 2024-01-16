@@ -1,62 +1,62 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/woman/dress.jpg", 
+        image: "./dress.jpg", 
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "WOMEN Cream Plain Dress Colar Long Sleeve",
         price: 89.00
     },
     {
-        image: "./img/woman/tshirt.jpg",
+        image: "./tshirt.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "WOMEN Cream Shirt Colar Long Sleeve",
         price: 45.00
     },
     {
-        image: "./img/woman/knitwear.jpg",
+        image: "./knitwear.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "WOMEN Soft Brown Knitwear with Diamond Pattern",
         price: 50.00
     },
     {
-        image: "./img/woman/sweatshirt.jpg",
+        image: "./sweatshirt.jpg",
         gendar: "WOMEN",
         size:"XS-XXL",
         description: "WOMEN Dark Brown Sweatshirt",
         price: 39.90
     },
     {
-        image: "./img/woman/jumpsuit.jpg",
+        image: "./jumpsuit.jpg",
         gendar: "WOMEN",
         size:"XS-XXL",
         description: "WOMEN Black Denim Jumpsuit",
         price: 70.00
     },
     {
-        image: "./img/woman/sweatshirt1.jpg",
+        image: "./sweatshirt1.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "WOMEN White Cream Sweatshirt",
         price: 40.00
     },
     {
-        image: "./img/woman/sweater.jpg",
+        image: "./sweater.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "WOMEN Sweater Turtleneck",
         price: 32.00
     },
     {
-        image: "./img/woman/jeans.jpg",
+        image: "./jeans.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "WOMEN Dark Blue Jeans",
         price: 70.99
     },
     {
-        image: "./img/woman/jeans1.jpg",
+        image: "./jeans1.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "WOMEN High Waist Palazzo Jeans",
@@ -64,7 +64,7 @@ const newArrivalObj_1 = [
         price: 67.00
     },
     {
-        image: "./img/woman/slack.jpg",
+        image: "./slack.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "WOMEN High Waist Bootcut Slack",
