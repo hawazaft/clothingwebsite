@@ -1,27 +1,27 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/woman/knitwear.jpg",
+        image: "knitwear.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "Soft Brown Knitwear with Diamond Pattern",
         price: 50.00
     },
     {
-        image: "./img/woman/sweatshirt.jpg",
+        image: "sweatshirt.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "Dark Brown Sweatshirt",
         price: 39.00
     },
     {
-        image: "./img/woman/sweatshirt1.jpg",
+        image: "sweatshirt1.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "White Cream Sweatshirt",
         price: 40.00
     },
     {
-        image: "./img/woman/sweater.jpg",
+        image: "sweater.jpg",
         gendar: "WOMEN",
         size: "XS-XXL",
         description: "Sweater Turtleneck",
