@@ -1,111 +1,111 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/kids/dress.jpg",
+        image: "dress1.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Red Dress",
         price: 56.00
     },
     {
-        image: "./img/kids/jeans1.jpg",
+        image: "jeans4.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Jeans Straight Cut",
         price: 30.99
     },
     {
-        image: "./img/kids/jeans.jpg",
+        image: "jeans5.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Black Denim",
         price: 39.99
     },
     {
-        image: "./img/kids/knitwear.jpg",
+        image: "knitwear1.jpg",
         gendar: "KIDS",
         size:"XS-XXL",
         description: "Knitwear with Rabbit Design",
         price: 34.50
     },
     {
-        image: "./img/kids/pants.jpg",
+        image: "pants2.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Cream Pants Loose",
         price: 31.90
     },
     {
-        image: "./img/kids/set.jpg",
+        image: "set.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Pink Pyjama Set",
         price: 20.00
     },
     {
-        image: "./img/kids/set1.jpg",
+        image: "set1.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Orange Pyjama Set",
         price: 16.90
     },
     {
-        image: "./img/kids/set2.jpg",
+        image: "set2.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Grey Pyjama Set with Button",
         price: 18.90
     },
     {
-        image: "./img/kids/shirt.jpg",
+        image: "shirt5.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "T-Shirt with Cute Design",
         price: 37.00
     },
     {
-        image: "./img/kids/shirt1.jpg",
+        image: "shirt6.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "T-Shirt Long Sleeve",
         price: 10.00
     },
     {
-        image: "./img/kids/shirt2.jpg",
+        image: "shirt2.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "T-Shirt with Strip Pattern",
         price: 12.00
     },
     {
-        image: "./img/kids/shirt3.jpg",
+        image: "shirt3.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "T-Shirt with Small Hello Kitten Design",
         price: 19.00
     },
     {
-        image: "./img/kids/shirt4.jpg",
+        image: "shirt4.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Cream T-Shirt Short Sleeve",
         price: 17.00
     },
     {
-        image: "./img/kids/sweatshirt.jpg",
+        image: "sweatshirt3.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Minnie Mouse Sweatshirt",
         price: 23.99
     },
     {
-        image: "./img/kids/sweatshirt1.jpg",
+        image: "sweatshirt4.jpg",
         gendar: "KIDS",
         size:"XS-XXL",
         description: "Hello Kitty Sweatshirt",
         price: 27.90
     },
     {
-        image: "./img/kids/sweatshirt2.jpg",
+        image: "sweatshirt2.jpg",
         gendar: "KIDS",
         size: "XS-XXL",
         description: "Brown Sweatshirt",
