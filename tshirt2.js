@@ -1,27 +1,27 @@
 const newArrivalObj_1 = [
     {
-        image: "./img/man/shirt.jpg",
+        image: "shirt.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Grey T-Shirt",
         price: 18.90
     },
     {
-        image: "./img/man/shirt1.jpg",
+        image: "shirt1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "T-Shirt",
         price: 23.99
     },
     {
-        image: "./img/man/tshirt.jpg",
+        image: "tshirt2.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "White Shirt Long Sleeve",
         price: 42.00
     },
     {
-        image: "./img/man/tshirt1.jpg",
+        image: "tshirt1.jpg",
         gendar: "MEN",
         size: "XS-XXL",
         description: "Shirt Rectangle Pattern",
